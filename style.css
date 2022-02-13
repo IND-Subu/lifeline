@@ -1,0 +1,171 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background: #0e1538;
+    
+  
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+.hiden{
+		height: 1px;
+		width: 1px;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header */
+header{
+  background:#ffaaf4;
+  color:#ffffff;
+  padding:10px;
+  min-height:20px;
+  font-size: 30px;
+  border-bottom: #ff1569 5px solid;
+  text-align: center;
+  border-radius: 15px;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+  
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+#branding{
+  float: left;
+}
+#branding h1{
+  margin-left: 100px;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+.highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+.audio{
+		width: 50%;
+		margin-top: 82vh;
+		border: 4px solid #f855ff;
+		margin-left: 25%;
+		border-radius: 25px;
+		filter: invert(1%);
+}
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+/* Showcase */
+video{
+  position: absolute;
+  object-fit: cover; 
+  height:85vh;
+  width: 100%;
+  opacity: 80%;
+}
+#showcase{
+		/*
+	background:url('../img/show.jpg') no-repeat;
+  background-position: center;
+  background-size: cover; 		
+  color:#ffffff;
+  overflow: hidden;*/
+  display: flex;
+  height: 30vh;
+  position: absolute;
+  width: 100%;
+  margin-top: 45vh;
+												
+}												
+iframe{
+		margin-top: 119%;
+		position: absolute;
+		height: 18vh;
+		width: 22%;
+		margin-left: 68%;
+		border: none;
+}
+/*#showcase h1{
+		position: absolute;
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}*/
+
+p{
+  font-size:5ch;
+} 
+
+/*footer{
+		position: absolute;
+  color:#e8491d;
+  background-color:#ffaaf4;
+  text-align: center;
+  margin-top: 100%;  
+  width: 100%; 
+  border-top: 5px solid #ff40e7;
+  font-size: 30px;
+  height: 10vh;
+  border: 10px solid red;
+}
+Media Queries 7*/
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+  /* Text Effects */
